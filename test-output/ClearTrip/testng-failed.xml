@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [ClearTrip]" parallel="tests">
+  <test thread-count="2" name="com.suite1(failed)" parallel="tests">
+    <classes>
+      <class name="com.suite1.ExtentReport">
+        <methods>
+          <include name="endReport"/>
+          <include name="TC_004_AddPassengerDetails"/>
+          <include name="getResult"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.suite1.ExtentReport -->
+      <class name="com.suite1.TC_004_AddPassengerDetails">
+        <methods>
+          <include name="Initalization"/>
+          <include name="Add_Passenger"/>
+        </methods>
+      </class> <!-- com.suite1.TC_004_AddPassengerDetails -->
+    </classes>
+  </test> <!-- com.suite1(failed) -->
+</suite> <!-- Failed suite [ClearTrip] -->

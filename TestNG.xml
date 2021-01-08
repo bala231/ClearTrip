@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="2" verbose="1" name="ClearTrip" annotations="JDK"  parallel="tests" >
+         
+  <test name="com.suite1">
+	 <classes>
+	    <class name="com.suite1.TC_001_Login"/>
+	    <class name="com.suite1.TC_002_Trip"/>
+	    <class name="com.suite1.TC_003_TripBook"/>
+	    <class name="com.suite1.TC_004_AddPassengerDetails"/>
+	    <class name="com.suite1.ExtentReport"/>
+	 </classes>
+   </test>
+
+
+      
+</suite>
